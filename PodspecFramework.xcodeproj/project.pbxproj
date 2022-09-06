@@ -71,8 +71,8 @@
 		65D7723B28ABA0CC00238704 /* PodspecFramework */ = {
 			isa = PBXGroup;
 			children = (
-				65D7723C28ABA0CC00238704 /* PodspecFramework.h */,
 				65D7723D28ABA0CC00238704 /* PodspecFramework.docc */,
+				65D7723C28ABA0CC00238704 /* PodspecFramework.h */,
 			);
 			path = PodspecFramework;
 			sourceTree = "<group>";
@@ -345,6 +345,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -372,6 +373,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
